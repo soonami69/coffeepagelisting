@@ -3,6 +3,12 @@ import "./styles.css";
 import { DM_Sans } from "next/font/google";
 import { Tabs } from "./components/tabs";
 import "./tabs.css";
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'simple coffee page listing',
+  description: '...',
+}
 
 /*
 //
