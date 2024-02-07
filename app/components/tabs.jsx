@@ -2,7 +2,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { TABS } from "../const.js";
-import CoffeeCard from "./coffeecard";
+import CoffeeCard from "./coffeecard.jsx";
 
 export function Tabs() {
   const [selectedTab, setSelectedTab] = useState(TABS.ALL);
